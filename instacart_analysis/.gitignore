@@ -1,0 +1,40 @@
+# Environnement virtuel
+.venv/
+venv/
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Fichiers de données volumineux
+data/*.csv
+
+# Variables d'environnement
+.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Caches de pytest/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Caches de Jupyter Notebook
+.ipynb_checkpoints
+
+# Fichiers VSCode
+.vscode/
+
+# Fichiers Shiny
+*.log
+rsconnect/
