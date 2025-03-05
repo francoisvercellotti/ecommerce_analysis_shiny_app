@@ -6,7 +6,7 @@ Ce tableau de bord offre une analyse comprehensive des données de panier d'Inst
 
 ## Démo de l'application
 
-![Démonstration de l'application](assets/screencast_appli-gif.gif)
+![Démonstration de l'application](instacart_analysis/assets/screencast_appli-gif.gif)
 
 ### 🔍 Fonctionnalités Principales
 
