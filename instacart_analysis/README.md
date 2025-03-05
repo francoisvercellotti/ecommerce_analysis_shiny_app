@@ -1,8 +1,7 @@
 # 📊 Tableau de Bord d'Analyse de Panier Instacart
 
 ## 🚀 Présentation du Projet
-
-Ce tableau de bord offre une analyse comprehensive des données de panier d'Instacart, révélant des insights sur les comportements d'achat des clients à travers des visualisations détaillées.
+Ce tableau de bord offre une analyse comprehensive des données de panier d'Instacart, un service de livraison de courses permettant aux clients de commander en ligne des produits alimentaires et de les recevoir à domicile. L'analyse révèle des insights précieux sur les comportements d'achat des utilisateurs, leurs préférences de produits et leurs habitudes de commande à travers des visualisations détaillées.
 
 ## Démo de l'application
 
