@@ -8,7 +8,6 @@ Ce tableau de bord offre une analyse comprehensive des données de panier d'Inst
 
 ![Démonstration de l'application](assets/screencast_appli-gif.gif)
 
-
 ### 🔍 Fonctionnalités Principales
 
 #### 1. Visualisation et Analyse de Données
@@ -45,6 +44,18 @@ Ce tableau de bord offre une analyse comprehensive des données de panier d'Inst
 
 ### 💡 Points Techniques Remarquables
 
+#### Optimisation de la Base de Données
+- **Indexation Stratégique** :
+  - Création d'index ciblés sur les colonnes fréquemment utilisées dans les jointures et les filtres
+  - Optimisation des recherches par `user_id`, `product_id` et critères temporels (`order_dow`, `order_hour_of_day`)
+- **Vues Matérialisées** :
+  - Précalcul des requêtes complexes et fréquemment exécutées
+  - Réduction drastique du temps de réponse pour les analyses de produits et d'historique utilisateur
+- **Procédures et Fonctions SQL** :
+  - Encapsulation de la logique métier dans des fonctions dédiées
+  - Procédure automatisée pour le rafraîchissement des vues matérialisées
+
+#### Autres Optimisations
 - Requêtes SQL optimisées
 - Mécanisme de cache avec `lru_cache`
 - Système de journalisation détaillé
@@ -81,7 +92,6 @@ DB_NAME=your_database_name
 uv run app.py
 ```
 
-
 ### 📝 Conclusion
 
 Ce projet représente une exploration technique approfondie de l'analyse de données de consommation. Il démontre ma capacité à transformer des données brutes en visualisations informatives, en combinant des compétences en développement backend, analyse de données et visualisation.
@@ -90,6 +100,7 @@ Ce projet représente une exploration technique approfondie de l'analyse de donn
 
 - **Développement Technique** : Mise en œuvre de solutions performantes avec Python, SQLAlchemy et Plotly
 - **Analyse de Données** : Création d'un tableau de bord révélant des insights sur les comportements d'achat
+- **Optimisation de Base de Données** : Implémentation d'une stratégie d'indexation et de matérialisation pour des performances exceptionnelles
 - **Approche Méthodologique** : Conception d'une application centrée sur la génération de valeur analytique
 
 #### 🚀 Perspectives
@@ -101,4 +112,3 @@ Un tremplin vers des développements plus avancés en analyse prédictive et sys
 ### 📜 Licence
 
 Projet personnel - © 2025
-```
